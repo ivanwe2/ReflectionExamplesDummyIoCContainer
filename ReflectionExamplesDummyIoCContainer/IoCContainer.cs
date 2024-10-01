@@ -83,6 +83,8 @@
                  })
                  .ToArray();
 
+            var ivan = new List<int>();
+
             return (TContract)Activator.CreateInstance(implementationType, constructorParameters);
         }
     }
